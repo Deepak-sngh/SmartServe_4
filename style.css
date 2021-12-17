@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+#mainContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34,34,34);
+    
+}
+
+#formBox{
+    width: 30%;
+    /* height: 80vh; */
+    background-color: rgb(20,20,20);
+    border-radius: 8px;
+    
+}
+#logo{
+    width: 40rem;
+    height: 18rem;
+    margin-bottom: 2rem;
+    
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 4rem 0;
+}
+.credentials_input{
+    width: 60%;
+    height: 3rem;
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#submitbtn{
+    background-color: rgb(113, 190, 88);
+    cursor: pointer;
+    width: 64%;
+    height: 3.5rem;
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 1.5rem 0 3rem 0;
+}
+#forgotpassword{
+    color: rgb(153,152,152);
+    font-size: 1.5rem;
+}
+#text, #text2{
+    color: red;
+    font-size: 1.5rem;
+    margin: -10px 0 10px 0;
+}
